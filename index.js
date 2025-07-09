@@ -1,3 +1,8 @@
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config({ path: "./config.env" });
+  console.log(process.env.PORT);
+}
+
 const express = require("express");
 
 const app = express();
