@@ -5,6 +5,9 @@ if (process.env.NODE_ENV !== "production") {
 
 const express = require("express");
 const mongoose = require("mongoose");
+const ejsMate = require("ejs-mate");
+const path = require("path");
+const methodOverride = require("method-override");
 
 main().catch((err) => console.log(err));
 
@@ -19,6 +22,16 @@ async function main() {
 }
 
 const app = express();
+
+app.engine("ejs", ejsMate);
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+
+app.use(express.static(path.join(__dirname, "public")));
+
+app.use(methodOverride("_method"));
+
+app.use(express.urlencoded({ extended: true }));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
