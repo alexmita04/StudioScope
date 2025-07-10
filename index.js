@@ -8,6 +8,8 @@ const mongoose = require("mongoose");
 const ejsMate = require("ejs-mate");
 const path = require("path");
 const methodOverride = require("method-override");
+const session = require("express-session");
+const bcrypt = require("bcrypt");
 
 main().catch((err) => console.log(err));
 
@@ -32,6 +34,26 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(methodOverride("_method"));
 
 app.use(express.urlencoded({ extended: true }));
+
+const sessionConfig = {
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 7),
+    maxAge: 1000 * 60 * 60 * 24 * 7,
+    httpOnly: true,
+  },
+};
+
+app.use(session(sessionConfig));
+
+function isAuthenticated(req, res, next) {
+  if (req.session.userId) {
+    return next();
+  }
+  next(); // add custom error
+}
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
