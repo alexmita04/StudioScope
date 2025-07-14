@@ -55,6 +55,10 @@ function isAuthenticated(req, res, next) {
   next(); // add custom error
 }
 
+app.get("/", (req, res, next) => {
+  res.send("hello from the server!");
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
