@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const bcrypt = require("bcrypt");
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
@@ -16,7 +17,24 @@ const userSchema = new Schema({
     minlength: [8, "Password must be at least 8 characters long."],
     select: false,
   },
+  role: {
+    type: String,
+    enum: ["user", "agency"],
+    default: "user",
+    required: [true, "An user must have a role!"],
+  },
 });
+
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) return next();
+  const salt = await bcrypt.genSalt(10);
+  this.password = await bcrypt.hash(this.password, salt);
+  next();
+});
+
+userSchema.methods.comparePassword = function (inputPassword) {
+  return bcrypt.compare(inputPassword, this.password);
+};
 
 const User = mongoose.model("User", userSchema);
 

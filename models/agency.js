@@ -15,15 +15,11 @@ const CATEGORY_ENUM = [
 ];
 
 const serviceSchema = Schema({
-  author: {
-    type: Schema.Types.ObjectId,
-    ref: "User",
-  },
   name: {
     type: String,
     required: [true, "A service must have a name!"],
   },
-  descripton: {
+  description: {
     type: String,
     required: [true, "A service must have a description!"],
   },
@@ -37,6 +33,10 @@ const serviceSchema = Schema({
 });
 
 const agencySchema = Schema({
+  author: {
+    type: Schema.Types.ObjectId,
+    ref: "User",
+  },
   name: {
     type: String,
     required: [true, "An agency must have a name!"],

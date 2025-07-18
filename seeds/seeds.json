@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Studio Verge",
+    "author": "studio-verge",
+    "description": "Studio Verge is a boutique creative agency specializing in digital-first branding and high-converting UX design. We partner with forward-thinking startups and global brands to craft compelling identities and digital experiences that move audiences to action.",
+    "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": ["Branding", "UX Design", "Content Creation", "Strategy"],
+    "services": [
+      {
+        "name": "Brand Identity Design",
+        "description": "We create iconic brand identities rooted in strategic positioning, including logo design, typography systems, color palettes, and brand guidelines.",
+        "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 850
+      },
+      {
+        "name": "UX Research & Design",
+        "description": "We run research-driven design sprints to uncover user insights and translate them into wireframes, user flows, and interactive prototypes.",
+        "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 600
+      },
+      {
+        "name": "Content Strategy & Copywriting",
+        "description": "Our team crafts conversion-oriented messaging across digital platforms — from hero taglines to product microcopy — all aligned to your voice and audience.",
+        "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Ds",
+        "price": 400
+      },
+      {
+        "name": "Go-to-Market Strategy",
+        "description": "We help brands launch with impact through competitive analysis, audience segmentation, messaging frameworks, and channel strategy.",
+        "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 700
+      }
+    ],
+    "contact": {
+      "email": "contact@studioverge.co",
+      "phoneNumber": "+1 (415) 555-0132"
+    }
+  },
+  {
+    "name": "Pixel & Hue",
+    "author": "pixel-hue",
+    "description": "Pixel & Hue is a full-service creative agency blending bold strategy with award-winning design. From startups to Fortune 500s, we craft impactful digital experiences that resonate.",
+    "imageUrl": "https://images.unsplash.com/photo-1603189751032-7d5b09d9c8ca?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": ["Branding", "UI Design", "Strategy", "Content Creation"],
+    "services": [
+      {
+        "name": "Brand Identity Development",
+        "description": "We create iconic brand identities that stand out in saturated markets. This includes logo design, typography systems, color palettes, and brand guidelines.",
+        "imageUrl": "https://images.unsplash.com/photo-1603189751032-7d5b09d9c8ca?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 8500
+      },
+      {
+        "name": "UI Design for Web & Mobile",
+        "description": "Custom user interface design optimized for engagement and conversion. We handle everything from wireframes to high-fidelity prototypes.",
+        "imageUrl": "https://images.unsplash.com/photo-1603189751032-7d5b09d9c8ca?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 650
+      },
+      {
+        "name": "Content Marketing Campaigns",
+        "description": "Data-driven content creation and campaign strategies to grow your brand presence organically across platforms.",
+        "imageUrl": "https://images.unsplash.com/photo-1603189751032-7d5b09d9c8ca?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 400
+      },
+      {
+        "name": "Strategic Brand Positioning",
+        "description": "We work with leadership teams to uncover brand essence, define voice, and develop strategic narratives that connect with core audiences.",
+        "imageUrl": "https://images.unsplash.com/photo-1603189751032-7d5b09d9c8ca?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 720
+      }
+    ],
+    "contact": {
+      "email": "hello@pixelandhue.com",
+      "phoneNumber": "+1 (415) 555-9012"
+    }
+  },
+  {
+    "name": "Studio Northbound",
+    "author": "northbound-std",
+    "description": "Studio Northbound is a multidisciplinary creative collective specializing in digital storytelling, user-centered design, and culturally resonant campaigns. We help brands find their voice—and amplify it.",
+    "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": [
+      "UX Design",
+      "Web Development",
+      "Motion Graphics",
+      "Advertising"
+    ],
+    "services": [
+      {
+        "name": "UX Research & Journey Mapping",
+        "description": "Deep user research and experience mapping to ensure every touchpoint is intuitive, relevant, and delightful.",
+        "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 500
+      },
+      {
+        "name": "Full-Stack Web Development",
+        "description": "Custom websites built with performance, accessibility, and scalability in mind. From React frontends to scalable Node.js backends.",
+        "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 1200
+      },
+      {
+        "name": "Explainer Video Production",
+        "description": "Engaging 2D/3D motion graphics that tell your story, explain your product, or promote your campaign with style.",
+        "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 700
+      },
+      {
+        "name": "Integrated Ad Campaigns",
+        "description": "We craft memorable advertising campaigns that span digital, print, and social—built on strategy and driven by results.",
+        "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 950
+      }
+    ],
+    "contact": {
+      "email": "contact@northboundstudio.co",
+      "phoneNumber": "+1 (646) 321-8742"
+    }
+  },
+  {
+    "name": "Halo & Co.",
+    "author": "halo-co",
+    "description": "A boutique agency specializing in high-end branding and immersive digital experiences for modern lifestyle brands.",
+    "imageUrl": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": ["Branding", "Strategy", "UI Design", "Content Creation"],
+    "services": [
+      {
+        "name": "Luxury Brand Systems",
+        "description": "Designing scalable and luxurious branding systems tailored for premium positioning.",
+        "imageUrl": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 1100
+      },
+      {
+        "name": "Website UI Design",
+        "description": "Polished interfaces with a strong focus on usability and high-end aesthetics.",
+        "imageUrl": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 800
+      }
+    ],
+    "contact": {
+      "email": "hello@haloandco.studio",
+      "phoneNumber": "+1 (917) 882-3344"
+    }
+  },
+  {
+    "name": "Drift Theory",
+    "author": "drift-theory",
+    "description": "We help tech startups and disruptors craft stories that cut through the noise—visually and strategically.",
+    "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": [
+      "Strategy",
+      "Content Creation",
+      "UX Design",
+      "Market Research"
+    ],
+    "services": [
+      {
+        "name": "Go-To-Market Playbooks",
+        "description": "We build actionable GTM strategies grounded in audience insight and competitive research.",
+        "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 950
+      },
+      {
+        "name": "UX Optimization Audits",
+        "description": "Conversion-focused audits that improve user flows and engagement.",
+        "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 420
+      }
+    ],
+    "contact": {
+      "email": "strategy@drifttheory.com",
+      "phoneNumber": "+1 (310) 929-7781"
+    }
+  },
+  {
+    "name": "Forge & Form",
+    "author": "forhe-form",
+    "description": "Award-winning motion graphics and design studio helping brands make statements that move.",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1661782643161-8e0abd01cb7c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": [
+      "Motion Graphics",
+      "Advertising",
+      "Branding",
+      "Content Creation"
+    ],
+    "services": [
+      {
+        "name": "Explainer Animation",
+        "description": "Crisp, modern motion graphics that simplify your message and elevate your brand.",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661782643161-8e0abd01cb7c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 680
+      },
+      {
+        "name": "Product Launch Visuals",
+        "description": "Launch packages that include 3D visuals, teaser trailers, and animations.",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661782643161-8e0abd01cb7c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 890
+      }
+    ],
+    "contact": {
+      "email": "contact@forgeform.co",
+      "phoneNumber": "+1 (646) 412-9902"
+    }
+  },
+  {
+    "name": "Civic & Scale",
+    "author": "civic-scale",
+    "description": "A socially conscious agency focused on branding and digital tools for civic, non-profit, and mission-driven orgs.",
+    "imageUrl": "https://images.unsplash.com/photo-1512645592367-97ba8a9d4035?q=80&w=2656&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": [
+      "Web Development",
+      "UI Design",
+      "Content Creation",
+      "Market Research"
+    ],
+    "services": [
+      {
+        "name": "Responsive Website Development",
+        "description": "Modern, ADA-compliant websites built for transparency and user accessibility.",
+        "imageUrl": "https://images.unsplash.com/photo-1512645592367-97ba8a9d4035?q=80&w=2656&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 600
+      }
+    ],
+    "contact": {
+      "email": "team@civicandscale.org",
+      "phoneNumber": "+1 (202) 555-7321"
+    }
+  },
+  {
+    "name": "Signal West",
+    "author": "signal-west",
+    "description": "We craft compelling brand experiences for modern eCommerce and lifestyle companies looking to grow online.",
+    "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": ["Branding", "Social Media", "UX Design", "Web Development"],
+    "services": [
+      {
+        "name": "DTC Brand Strategy",
+        "description": "Growth-focused brand development for direct-to-consumer businesses.",
+        "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 710
+      },
+      {
+        "name": "Social Content Calendars",
+        "description": "Monthly content packs with creative captions, graphics, and campaign structure.",
+        "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 290
+      }
+    ],
+    "contact": {
+      "email": "info@signalwest.co",
+      "phoneNumber": "+1 (415) 303-8899"
+    }
+  },
+  {
+    "name": "Arcade & Ivy",
+    "author": "arcade-ivy",
+    "description": "Elegant design meets sharp strategy. We help fashion, editorial, and luxury clients create unforgettable digital moments.",
+    "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": ["Branding", "Motion Graphics", "Strategy", "UX Design"],
+    "services": [
+      {
+        "name": "Brand Film Production",
+        "description": "Short-form cinematic films and fashion reels with bespoke art direction.",
+        "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 980
+      },
+      {
+        "name": "Fashion UX/UI Design",
+        "description": "Design tailored for editorial-style eCommerce experiences.",
+        "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 750
+      }
+    ],
+    "contact": {
+      "email": "studio@arcadeivy.com",
+      "phoneNumber": "+1 (212) 662-8877"
+    }
+  },
+  {
+    "name": "Neon North Studio",
+    "author": "neon-north",
+    "description": "Vibrant, Gen-Z forward creative agency blending trend-savvy social strategies with bold design and real-time campaigns.",
+    "imageUrl": "https://images.unsplash.com/photo-1736751209135-b098a5099d40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "categories": [
+      "Social Media",
+      "Content Creation",
+      "Advertising",
+      "UX Design"
+    ],
+    "services": [
+      {
+        "name": "TikTok Video Production",
+        "description": "Script, shoot, and edit viral-ready TikTok videos for emerging brands.",
+        "imageUrl": "https://images.unsplash.com/photo-1736751209135-b098a5099d40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 240
+      },
+      {
+        "name": "UGC Creative Campaigns",
+        "description": "We design campaigns powered by user-generated content and micro-influencers.",
+        "imageUrl": "https://images.unsplash.com/photo-1736751209135-b098a5099d40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 380
+      },
+      {
+        "name": "Social-First UX Design",
+        "description": "Web experiences designed for mobile-first audiences and social sharing.",
+        "imageUrl": "https://images.unsplash.com/photo-1736751209135-b098a5099d40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 460
+      }
+    ],
+    "contact": {
+      "email": "hello@neonnorth.xyz",
+      "phoneNumber": "+1 (503) 882-2234"
+    }
+  }
+]
