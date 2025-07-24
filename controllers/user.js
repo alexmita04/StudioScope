@@ -1,3 +1,5 @@
+const User = require("../models/user");
+
 exports.register = async (req, res, next) => {
   try {
     const { username, password } = req.body;
@@ -6,8 +8,11 @@ exports.register = async (req, res, next) => {
 
     const newUser = new User({ username, password });
     await newUser.save();
+
+    req.session.userId = newUser._id;
     res.status(201).send("User registerd"); //redirect to main page
   } catch (err) {
+    console.log(err);
     res.status(500).send("Error registering user!"); // throw custom error through flash and redirect
   }
 };
@@ -29,6 +34,12 @@ exports.login = async (req, res, next) => {
 };
 
 exports.logout = async (req, res, next) => {
-  delete req.session.userId;
-  res.send("logged out");
+  req.session.destroy((err) => {
+    if (err) {
+      console.error("Error destroying session:", err);
+      return res.status(500).send("Logout error");
+    }
+    res.clearCookie("connect.sid");
+    res.send("Logged out");
+  });
 };

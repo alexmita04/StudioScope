@@ -9,6 +9,7 @@ const ejsMate = require("ejs-mate");
 const path = require("path");
 const methodOverride = require("method-override");
 const session = require("express-session");
+const MongoStore = require("connect-mongo");
 const userRouter = require("./routes/user");
 const agencyRouter = require("./routes/agency");
 const reviewRouter = require("./routes/review");
@@ -37,10 +38,17 @@ const sessionConfig = {
   secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
+  store: MongoStore.create({
+    mongoUrl: mongoose.connection.getClient().s.url,
+    collectionName: "sessions",
+    ttl: 60 * 60 * 24 * 7,
+  }),
   cookie: {
     expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 7),
     maxAge: 1000 * 60 * 60 * 24 * 7,
     httpOnly: true,
+    secure: true,
+    sameSite: "strict",
   },
 };
 
@@ -50,7 +58,7 @@ function isAuthenticated(req, res, next) {
   if (req.session.userId) {
     return next();
   }
-  next(); // add custom error
+  return res.status(401).send("Unauthorized: Please log in."); // add custom logic
 }
 
 app.use("/users", userRouter);
