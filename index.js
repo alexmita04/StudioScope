@@ -54,13 +54,6 @@ const sessionConfig = {
 
 app.use(session(sessionConfig));
 
-function isAuthenticated(req, res, next) {
-  if (req.session.userId) {
-    return next();
-  }
-  return res.status(401).send("Unauthorized: Please log in."); // add custom logic
-}
-
 app.use("/users", userRouter);
 app.use("/agencies", agencyRouter);
 app.use("/agencies/:id/reviews", reviewRouter);
