@@ -22,7 +22,7 @@ const extension = (joi) => ({
   },
 });
 
-const Joi = BaseJoi.extension(extension);
+const Joi = BaseJoi.extend(extension);
 
 const CATEGORY_ENUM = [
   "Branding",
@@ -51,7 +51,7 @@ exports.agencySchema = Joi.object({
       .items(
         Joi.object({
           name: Joi.string().required().escapeHTML(),
-          description: Joi.string().reqiured().escapeHTML(),
+          description: Joi.string().required().escapeHTML(),
           imageUrl: Joi.string().escapeHTML(),
           price: Joi.number().required(),
         })
