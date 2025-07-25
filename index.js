@@ -58,8 +58,11 @@ app.use("/users", userRouter);
 app.use("/agencies", agencyRouter);
 app.use("/agencies/:id/reviews", reviewRouter);
 
-app.get("/", (req, res, next) => {
-  res.send("hello from the server!");
+app.use((err, req, res, next) => {
+  const { statusCode = 500 } = err;
+  if (!err.message) err.message = "Something went wrong!";
+
+  res.status(statusCode).send(err.message); // add an error view
 });
 
 const PORT = process.env.PORT || 3000;
